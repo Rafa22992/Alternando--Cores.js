@@ -1,0 +1,113 @@
+body{
+    letter-spacing: 0.2em;
+    font-size: 15pt;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    }
+    #vermelha{
+        float: left;
+        width: 50%;
+        height: 476px;
+        border: 1px solid red;
+        background-color: rgb(172, 50, 50);
+    }
+    #botao-vm{
+        float: right;
+        margin: 0 auto;
+        width: 160px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        position: relative;
+        top: 400px;
+        right: 5px;
+        background-color:rgb(173, 31, 31);
+        border-bottom: 10px groove #ccc;
+        border-top: 2px groove white;
+        border-right:  2px groove white;
+        border-left:  2px groove white;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    #amarelo{
+        float: left;
+        width: 50%;
+        height: 476px;
+        border: 1px solid yellow;
+        background-color: rgb(209, 209, 13);
+    }
+    #botao-a{
+        float: right;
+        margin: 0 auto;
+        width: 160px;
+        position: relative;
+        top: 1px;
+        right: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color:rgb(219, 216, 23);
+        border-bottom: 10px groove #ccc;
+        border-top: 2px groove white;
+        border-right:  2px groove white;
+        border-left:  2px groove white;
+        border-top: 2px solid white;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    #roxa{
+        height: 476px;
+        float: right;
+        width: 49%;
+        border: 1px solid blueviolet;
+        background-color: rgb(124, 26, 124);
+        position: relative;
+        right: 15px;
+    }
+    #botao-r{
+        float: left;
+        margin: 0 auto;
+        width: 160px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        position: relative;
+        top: 400px;
+        background-color:rgb(133, 69, 111);
+        border-bottom: 10px groove #ccc;
+        border-top: 2px groove white;
+        border-right:  2px groove white;
+        border-left:  2px groove white;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    #verde{
+    float: right;
+    height: 476px;
+    width: 49%;
+    border: 1px solid green;
+    background-color: rgb(49, 177, 49);
+    position: relative;
+    right:15px;
+    }
+    #botao-v{
+        float: left;
+        margin: 0 auto;
+        width: 160px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-color:rgb(46, 153, 46);
+        border-bottom: 10px groove #ccc;
+        border-top: 2px groove white;
+        border-right:  2px groove white;
+        border-left:  2px groove white;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    
+    #botao-vm:hover, #botao-a:hover,
+    #botao-r:hover, #botao-v:hover{ 
+        border-bottom:  5px groove #ccc;
+    }
